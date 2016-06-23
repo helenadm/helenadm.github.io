@@ -1,3 +1,7 @@
+
+body{
+  background-image: url(./picture/3.jpg);
+}
 #top, #bottom, #left, #right{
   background: #a5ebff;
   position: fixed;
@@ -15,6 +19,8 @@
     }
     #top { top: 0; }
     #bottom { bottom: 0; }
+
+
 #H4 {
   font-size: 80px;
   font-color: blue;
@@ -22,6 +28,7 @@
   left: 160px;
   top: 150px;
 }
+
 
 #btn {
   -webkit-border-radius: 28;
@@ -45,3 +52,4 @@
   left: 500px;
   top:290px;
 }
+
