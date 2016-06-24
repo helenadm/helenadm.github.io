@@ -1,4 +1,11 @@
-
+body {
+background: url('../picture/1.jpg') no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size:cover;
+   -o-background-size:cover;
+   background-size: cover;
+}
+}
 
 #top, #bottom, #left, #right{
   background: #a5ebff;
@@ -28,7 +35,7 @@
 }
 
 
-#btn {
+.btn1 {
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
@@ -43,19 +50,71 @@
   top:290px;
 }
 
-#btn:hover {
+.btn1:hover {
   background: #3cb0fd;
   text-decoration: none;
-    position: absolute;
+  position: absolute;
   left: 500px;
   top:290px;
 }
+.btn2 {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #3498db;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: absolute;
+  left: 650px;
+  top:290px;
+}
+
+.btn2:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+  position: absolute;
+  left: 650px;
+  top:290px;
+}
+
+.btn3 {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #3498db;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: absolute;
+  left: 800px;
+  top:290px;
+}
+
+.btn3:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+  position: absolute;
+  left: 800px;
+  top:290px;
+}
+
+
 .picture1{
-   background-image: url('../picture/1.jpg')
+   background-image: url('../picture/1.jpg');
+}
+.picture2{
+   background-image: url('../picture/Helena-19.jpg');
 }
 .picture3{
-   background-image: url('../picture/3.jpg')
+   background-image: url('../picture/3.jpg');
+   
 }
 .picture4{
-   background-image: url('../picture/4.jpg')
+   background-image: url('../picture/4.jpg');
+ 
 }

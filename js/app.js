@@ -1,6 +1,12 @@
 
 $(document).ready(function(){
-	$('btn').click(function(){
-		$('body').removeClass('picture1').addClass('picture4');
+	$('btn1').click(function(){
+		$('body').removeClass().addClass('picture4');
+	});
+	$('btn2').click(function(){
+		$('body').removeClass().addClass('picture2');
+	});
+	$('btn3').click(function(){
+		$('body').removeClass().addClass('picture3');
 	});
 });
