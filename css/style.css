@@ -1,7 +1,5 @@
 
-body{
-  background-image: url(./picture/3.jpg);
-}
+
 #top, #bottom, #left, #right{
   background: #a5ebff;
   position: fixed;
@@ -52,4 +50,12 @@ body{
   left: 500px;
   top:290px;
 }
-
+.picture1{
+   background-image: url('../picture/1.jpg')
+}
+.picture3{
+   background-image: url('../picture/3.jpg')
+}
+.picture4{
+   background-image: url('../picture/4.jpg')
+}
