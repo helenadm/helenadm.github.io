@@ -4,7 +4,7 @@ $(document).ready(function(){
 		$('body').removeClass().addClass('picture4');
 	});
 	$('btn2').click(function(){
-		$('body').removeClass().addClass('picture2');
+		$('body').removeClass().addClass('picture1');
 	});
 	$('btn3').click(function(){
 		$('body').removeClass().addClass('picture3');
