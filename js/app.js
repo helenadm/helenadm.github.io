@@ -1,12 +1,11 @@
 
 $(document).ready(function(){
-	$('btn1').click(function(){
-		$('body').removeClass().addClass('picture4');
-	});
-	$('btn2').click(function(){
-		$('body').removeClass().addClass('picture1');
-	});
-	$('btn3').click(function(){
-		$('body').removeClass().addClass('picture3');
-	});
+	$('.myButton').click(function(event){
+		event.preventDefault()
+		console.log('preventDefault');
+		var target = $(event.target)
+		console.log('event')
+		$('#body').removeClass()
+		console.log ('removeClass')		
+	})
 });
