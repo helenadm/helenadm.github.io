@@ -1,9 +1,4 @@
 body {
-background: url('../picture/1.jpg') no-repeat center center fixed;
-   -webkit-background-size: cover;
-   -moz-background-size:cover;
-   -o-background-size:cover;
-   background-size: cover;
 }
 
 .box{
@@ -49,4 +44,12 @@ h4 {
 
 .picture4{
    background-image: url('../picture/4.jpg');
+}
+h1{
+ font-family: verdara;
+  color: purple; 
+}
+Messenger.options = {
+    extraClasses: 'messenger-fixed messenger-on-bottom messenger-on-right',
+    theme: 'future'
 }
