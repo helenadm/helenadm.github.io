@@ -7,7 +7,7 @@ export default (props) => (
       <div className="wrapper">
         <index />
         <div className="paper">
-           <img className="paper1" src="../static/yo.jpg" />
+           <img className="paper1" src="../static/hermano.jpg" />
         </div>
       </div>
     </div>
@@ -17,12 +17,17 @@ export default (props) => (
       }
 
       .wrapper {
-        max-width: 980px;
+        max-width: 800px;
         margin-right: auto;
         margin-left: auto;
       }
+
+      img:hover {
+         opacity: 0.7;
+      }
+
       .paper1 {
-        max-width: 980px;
+        max-width: 800px;
         border: 3px solid #eaecee;
         background-color: #fff;
         min-height: 400px;
@@ -47,6 +52,7 @@ export default (props) => (
         .paper {
           padding: 1em;
         }
+
       }
     `}</style>
   </div>
