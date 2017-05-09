@@ -11,10 +11,18 @@ export default (props) => (
         <div className="navbarL">
         </div>
         <div className="navbarR">
-          <a href="../me">
-          A little of all
-          <i className="fa fa-sign-out" aria-hidden="true" />
-          </a>
+          <div>
+            <a href="../me">
+             - A little of all
+            <i className="fa fa-gift" aria-hidden="true"></i>
+            </a>
+          </div>
+          <div>
+            <a href="../boda">
+            - Bodorrio
+            <i className="fa fa-gift" aria-hidden="true"></i>
+            </a>
+          </div>
         </div>
      </div>
     </header>
@@ -24,6 +32,10 @@ export default (props) => (
         margin-top: 15px;
         position: relative;
         font-family: "Lucida Sans Typewriter","Lucida Console",Monaco,"Bitstream Vera Sans Mono",monospace;
+      }
+
+      i{
+          size:1em
       }
 
       .wrapper {
@@ -56,10 +68,11 @@ export default (props) => (
       }
       a, a:visited {
         color: #424242;
+        text-decoration: none;
       }
 
       a:hover {
-        font-size: 1.2em;
+        color: #ccc;
       }
 
       i {

@@ -8,7 +8,7 @@ export default (props) => (
         <index />
         <div className="wrapper1">
           <div className="photopaper">
-             <img className="photo" src="../static/playa.jpg" />
+             <img className="photo" src="../static/todos.jpg" />
           </div>
           <div className="words">
 
@@ -17,19 +17,7 @@ export default (props) => (
         <div className="space" />
         <div className="wrapper">
           <div className="photopaper">
-             <img className="photo" src="../static/cayon.jpg" />
-          </div>
-        </div>
-          <div className="space" />
-        <div className="wrapper">
-          <div className="photopaper">
-             <img className="photo" src="../static/LA.jpg" />
-          </div>
-        </div>
-        <div className="wrapper">
-          <div className="space" />
-          <div className="photopaperplano">
-             <img className="plano" src="../static/plano.jpg" />
+             <img className="photo" src="../static/todas.jpg" />
           </div>
       </div>
       </div>
