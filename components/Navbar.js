@@ -12,7 +12,7 @@ export default (props) => (
         </div>
         <div className="navbarR">
           <div>
-            <a href="../me">
+            <a href="../first">
              - A little of all
             <i className="fa fa-gift" aria-hidden="true"></i>
             </a>
@@ -27,9 +27,10 @@ export default (props) => (
      </div>
     </header>
     <style jsx>{`
+
       header {
-        min-height: 56px;
-        margin-top: 15px;
+        min-height: 3.3em;
+        margin-top: 1em;
         position: relative;
         font-family: "Lucida Sans Typewriter","Lucida Console",Monaco,"Bitstream Vera Sans Mono",monospace;
       }
@@ -39,16 +40,16 @@ export default (props) => (
       }
 
       .wrapper {
-        max-width: 980px;
+        max-width: 60em;
         margin-right: auto;
         margin-left: auto;
       }
 
       .brand {
         margin-left:1.2em;
-        font-size: 26px;
-        line-height: 56px;
-        letter-spacing: -1px;
+        font-size: 1.9em;
+        line-height: 3em;
+        letter-spacing: -0.07em;
         margin-bottom: 0;
         float: left;
         text-decoration: none;
@@ -76,9 +77,10 @@ export default (props) => (
       }
 
       i {
-        font-size:0.6;
+        font-size:0.6em;
         margin-right: 1em;
       }
+
     `}</style>
   </div>
 )

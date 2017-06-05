@@ -1,13 +1,13 @@
 
 import React from 'react'
-import More from '../components/More'
+import Little from '../components/Little'
 import Navbar from '../components/Navbar'
 
-const Me = () => (
+const First = () => (
   <div>
     <Navbar />
-    <More />
+    <Little />
   </div>
 )
 
-export default (Me)
+export default (First)

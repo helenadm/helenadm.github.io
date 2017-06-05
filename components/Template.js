@@ -13,11 +13,11 @@ export default (props) => (
     </div>
     <style jsx>{`
       .page-content {
-        padding: 30px 0;
+        padding: 3em 0;
       }
 
       .wrapper {
-        max-width: 800px;
+        max-width: 50em;
         margin-right: auto;
         margin-left: auto;
       }
@@ -27,10 +27,10 @@ export default (props) => (
       }
 
       .paper1 {
-        max-width: 800px;
+        max-width: 50em;
         border: 3px solid #eaecee;
         background-color: #fff;
-        min-height: 400px;
+        min-height: 25em;
         margin-right: auto;
         margin-left: auto;
         font-family: "Lucida Sans Typewriter","Lucida Console",Monaco,"Bitstream Vera Sans Mono",monospace;
@@ -39,7 +39,7 @@ export default (props) => (
       .paper {
         border: 2px solid #ccc;
         background-color: #D6EAF8;
-        padding: 60px 120px;
+        padding: 4.5em 5.5em;
         min-height: 400px;
         font-family: "Lucida Sans Typewriter","Lucida Console",Monaco,"Bitstream Vera Sans Mono",monospace;
       }
