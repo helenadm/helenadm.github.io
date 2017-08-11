@@ -1,22 +1,14 @@
 {
-  "name": "helena",
-  "version": "1.0.0",
-  "description": "myweb",
-  "main": "index.js",
-  "repository": "https://github.com/helenadm/helenadm.github.io.git",
-  "author": "helenadm <helena@kyso.io>",
-  "license": "MIT",
+  "name": "helenadomo",
   "dependencies": {
-    "eslint": "^3.19.0",
-    "next": "^2.0.0",
-    "now": "^5.2.3",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "next": "latest"
+    "install": "^0.10.1",
+    "next": "^2.4.9",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
   },
   "scripts": {
     "dev": "next",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start"
   }
 }

@@ -1,11 +1,13 @@
 import React from 'react'
 import Template from '../components/Template'
 import Navbar from '../components/Navbar'
+import DefaultPage from '../components/DefaultPage'
 
 const Index = () => (
   <div>
-    <Navbar />
-    <Template />
+    <DefaultPage />
+      <Navbar />
+      <Template />
   </div>
 )
 
