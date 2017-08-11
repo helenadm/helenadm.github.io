@@ -5,17 +5,17 @@ export default (props) => (
       <div className="wrapper">
         <nav>
           <a className="brand" href="./index">
-            Helena Domo
+          HELENA DOMO
           </a>
         </nav>
         <div className="navbarR">
-          <div className="topa">
+          <div className="line">
             <a href="../about">
              About
             </a>
           </div>
-          <div>
-            <a href="../contact">
+          <div className="underline">
+            <a className="ccc" href="../contact">
             Contact
             </a>
           </div>
@@ -29,7 +29,6 @@ export default (props) => (
        margin-top: 1em;
        position: relative;
        font-family: "Lucida Sans Typewriter","Lucida Console",Monaco,"Bitstream Vera Sans Mono",monospace;
-       margin-bottom: 50px;
      }
 
      .wrapper {
@@ -55,27 +54,29 @@ export default (props) => (
        font-family: "Lucida Sans Typewriter","Lucida Console",Monaco,"Bitstream Vera Sans Mono",monospace;
      }
 
-     .navbarL {
-       float: left;
-       margin-top: 1.2em;
-       margin-left: 1.2em;
-     }
-
      a, a:visited {
        color: #424242;
        text-decoration: none;
-       margin-bottom: 10px;
      }
 
      a:hover {
        color: #ccc;
-       margin-bottom: 10px;
      }
 
-     .topa{
-       margin-bottom: 10px;
+     a.ccc{
+       color: #ccc;
      }
 
+     .line{
+        margin-bottom: 10px;
+     }
+
+     .underline{
+       color: #ccc;
+       border-bottom: 1px solid currentColor;
+       height: 25px;
+       width: 4em;
+     }
     `}</style>
   </div>
 )
