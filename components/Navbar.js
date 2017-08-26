@@ -19,6 +19,11 @@ export default (props) => (
             Contact
             </a>
           </div>
+          <div>
+            <a href="../figure">
+            Figure out
+            </a>
+          </div>
         </div>
      </div>
     </header>

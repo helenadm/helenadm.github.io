@@ -9,43 +9,31 @@ export default (props) => (
       <index />
       <img className="imgpackage" src="../static/images/plano.jpg" />
       <div className="icons">
-        <i className="fab fa-twitter" aria-hidden="true" />
-        <i className="fab fa-github" aria-hidden="true" />
-        <i className="fal fa-at" aria-hidden="true" />
+        <a href="https://twitter.com/helenadm" target="_blank">
+          <i className="fab fa-twitter" aria-hidden="true" />
+        </a>
+          <a href="https://github.com/helenadm" target="_blank">
+            <i className="fab fa-github" aria-hidden="true" />
+          </a>
+        <a href="mailto:helenadm89@gmai1.com" target="_blank">
+            <i className="fal fa-at" aria-hidden="true" />
+        </a>
       </div>
     </div>
     <style jsx>{`
 
       .page-content {
         padding: 3em 0;
+        max-width: 1400px;
       }
 
-      .wrapper {
-        max-width: 50em;
-        margin-right: auto;
-        margin-left: auto;
+      .imgpackage{
+          max-width: 95%;
+          margin: 3rem;
       }
 
       img:hover {
          opacity: 0.7;
-      }
-
-      .paper1 {
-        max-width: 50em;
-        border: 3px solid #eaecee;
-        background-color: #fff;
-        min-height: 25em;
-        margin-right: auto;
-        margin-left: auto;
-        font-family: "Lucida Sans Typewriter","Lucida Console",Monaco,"Bitstream Vera Sans Mono",monospace;
-      }
-
-      .paper {
-        border: 2px solid #ccc;
-        background-color: #D6EAF8;
-        padding: 4.5em 5.5em;
-        min-height: 400px;
-        font-family: "Lucida Sans Typewriter","Lucida Console",Monaco,"Bitstream Vera Sans Mono",monospace;
       }
 
       .icons{
@@ -55,17 +43,11 @@ export default (props) => (
 
       i{
         margin-left: 50px;
+        color:black;
       }
 
       @media screen and (max-width: ${theme['phone']}) {
 
-        .wrapper {
-          max-width: 100%;
-        }
-
-        .paper {
-          padding: 1em;
-        }
       }
     `}</style>
   </div>
