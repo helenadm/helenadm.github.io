@@ -14,13 +14,13 @@ export default (props) => (
              About
             </a>
           </div>
-          <div className="underline line">
-            <a className="ccc" href="../contact">
+          <div className="line">
+            <a href="../contact">
             Contact
             </a>
           </div>
           <div>
-            <a href="../figure">
+            <a className="ccc"  className="underline" href="../figure">
             Figure out
             </a>
           </div>

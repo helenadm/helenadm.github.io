@@ -14,9 +14,14 @@ export default (props) => (
              About
             </a>
           </div>
-          <div>
+          <div className="line">
             <a href="../contact">
             Contact
+            </a>
+          </div>
+          <div>
+            <a href="../figure">
+            Figure out
             </a>
           </div>
         </div>
@@ -73,6 +78,9 @@ export default (props) => (
        height: 25px;
        width: 3em;
        margin-bottom: 10px;
+     }
+     .line{
+        margin-bottom: 10px;
      }
     `}</style>
   </div>

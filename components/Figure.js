@@ -10,13 +10,26 @@ export default (props) => (
       <div className="mainbox">
         <div className="text-block">
           <div className="package">
-            <a><i className="fal fa-paper-plane fa-3x" aria-hidden="true" /></a>
+            <a><i className="fal fa-clone fa-3x" aria-hidden="true" /></a>
             <p/>
             <div className="name">A</div>
             <hr />
             <ul>
               <li>
-                <img className="imgpackage" src="../static/images/cayon.jpg" />
+                <img className="imgpackage" src="../static/images/1.png" />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="text-block">
+          <div className="package">
+            <a><i className="fal fa-heart fa-3x" aria-hidden="true" /></a>
+            <p/>
+            <div className="name">Great</div>
+            <hr />
+            <ul>
+              <li>
+                <img className="imgpackage" src="../static/images/2.png" />
               </li>
             </ul>
           </div>
@@ -25,11 +38,11 @@ export default (props) => (
           <div className="package">
             <a><i className="fal fa-map-signs fa-3x" aria-hidden="true" /></a>
             <p/>
-            <div className="name">Great</div>
+            <div className="name">Way</div>
             <hr />
             <ul>
               <li>
-                <img className="imgpackage" src="../static/images/hermano.jpg" />
+                <img className="imgpackage" src="../static/images/4.png" />
               </li>
             </ul>
           </div>
@@ -38,11 +51,37 @@ export default (props) => (
           <div className="package">
             <a><i className="fal fa-neuter fa-3x" aria-hidden="true" /></a>
             <p/>
-            <div className="name">Trips</div>
+            <div className="name">To</div>
             <hr />
             <ul>
               <li>
-                <img className="imgpackage" src="../static/images/totem.jpg" />
+                <img className="imgpackage" src="../static/images/5.png" />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="text-block">
+          <div className="package">
+            <a><i className="fal fa-search fa-3x" aria-hidden="true" /></a>
+            <p/>
+            <div className="name">Search</div>
+            <hr />
+            <ul>
+              <li>
+                <img className="imgpackage" src="../static/images/7.png" />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="text-block">
+          <div className="package">
+            <a><i className="fal fa-rocket fa-3x" aria-hidden="true" /></a>
+            <p/>
+            <div className="name">Rockets</div>
+            <hr />
+            <ul>
+              <li>
+                <img className="imgpackage" src="../static/images/3.jpg" />
               </li>
             </ul>
           </div>
@@ -64,7 +103,7 @@ export default (props) => (
       font-size: 14px;
       box-sizing: border-box;
       width: 17rem;
-      height: 24rem;
+      height: 25rem;
       border-radius: 3px;
       float: left;
       padding: 24px;
@@ -75,7 +114,8 @@ export default (props) => (
       background-color: #fff;
     }
 
-    .package:hover{
+    .package:hover,
+    .name:hover{
       color:#ccc
     }
 

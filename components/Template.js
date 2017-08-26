@@ -4,7 +4,7 @@ import index from './Navbar'
 export default (props) => (
   <div>
     <div className="page-content">
-      <div className="">
+      <div>
         <index />
         <div>
          <img className="back" src="../static/images/yo.jpg" />
@@ -12,12 +12,11 @@ export default (props) => (
       </div>
     </div>
     <style jsx>{`
-
       .back {
         border: 3px solid #eaecee;
-        max-width: 50%;
+        max-width: 30%;
         background-color: #fff;
-        margin-right: -90em;
+        margin-left: 10rem
       }
 
     `}</style>
