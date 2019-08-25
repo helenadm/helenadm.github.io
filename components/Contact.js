@@ -1,54 +1,36 @@
-import theme from './theme'
-import index from './Navbar'
-import DefaultPage from './DefaultPage'
+import React from 'react'
 
 export default (props) => (
-  <div>
-    <DefaultPage />
-    <div className="page-content">
-      <index />
-      <img className="imgpackage" src="../static/images/plano.jpg" />
-      <div className="icons">
-        <a href="https://twitter.com/helenadm" target="_blank">
-          <i className="fab fa-twitter" aria-hidden="true" />
-        </a>
-          <a href="https://github.com/helenadm" target="_blank">
-            <i className="fab fa-github" aria-hidden="true" />
-          </a>
-        <a href="mailto:helenadm89@gmai1.com" target="_blank">
-            <i className="fal fa-at" aria-hidden="true" />
-        </a>
+  <article id="contact" className="panel secondary">
+    <div className="image">
+      <img src="static/images/contact.jpg" alt="" data-position="bottom center" />
+    </div>
+    <div className="content">
+      <ul className="actions spinX">
+        <li><a href="/" className="button small back">Back</a></li>
+      </ul>
+      <div className="inner">
+        <header>
+          <h2>Contact</h2>
+        </header>
+        <form method="post" action="#">
+          <div className="field half first">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div className="field half">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" />
+          </div>
+          <div className="field">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="5"></textarea>
+          </div>
+          <ul className="actions">
+            <li><a href="" className="button submit">Send Message</a></li>
+          </ul>
+        </form>
       </div>
     </div>
-    <style jsx>{`
-
-      .page-content {
-        padding: 3em 0;
-        max-width: 1400px;
-      }
-
-      .imgpackage{
-          max-width: 95%;
-          margin: 3rem;
-      }
-
-      img:hover {
-         opacity: 0.7;
-      }
-
-      .icons{
-          margin-top: 100px;
-          text-align: center;
-      }
-
-      i{
-        margin-left: 50px;
-        color:black;
-      }
-
-      @media screen and (max-width: ${theme['phone']}) {
-
-      }
-    `}</style>
-  </div>
+  </article>
 )
