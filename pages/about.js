@@ -1,12 +1,15 @@
 import React from 'react'
-import NavbarAbout from '../components/NavbarAbout'
-import About from '../components/About'
+import About from '../components/about'
+import DefaultPage from '../components/defaultPage'
 
-const about = () => (
-  <div>
-    <NavbarAbout />
+const contact = () => (
+  <div id="wrapper">
+    <DefaultPage />
     <About />
+    <footer id="footer">
+      <p className="copyright">&copy; Domo</p>
+    </footer>
   </div>
 )
 
-export default (about)
+export default (contact)

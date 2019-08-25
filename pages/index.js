@@ -1,13 +1,16 @@
 import React from 'react'
-import Template from '../components/Template'
-import Navbar from '../components/Navbar'
-import DefaultPage from '../components/DefaultPage'
+import Home from '../components/home'
+import DefaultPage from '../components/defaultPage'
 
 const Index = () => (
-  <div>
+  <div id="wrapper">
     <DefaultPage />
-      <Navbar />
-      <Template />
+      <Home />
+      <footer id="footer">
+        <p className="copyright">&copy; Domo</p>
+      </footer>
+    <style jsx>{`
+    `}</style>
   </div>
 )
 
