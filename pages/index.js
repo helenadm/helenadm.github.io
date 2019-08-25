@@ -1,6 +1,6 @@
 import React from 'react'
 import Home from '../components/home'
-import DefaultPage from '../components/defaultPage'
+import DefaultPage from '../components/default-page'
 
 const Index = () => (
   <div id="wrapper">

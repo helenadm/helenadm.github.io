@@ -1,6 +1,6 @@
 import React from 'react'
 import Work from '../components/work'
-import DefaultPage from '../components/defaultPage'
+import DefaultPage from '../components/default-page'
 
 const about = () => (
   <div id="wrapper">

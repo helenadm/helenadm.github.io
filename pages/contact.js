@@ -1,6 +1,6 @@
 import React from 'react'
 import Contact from '../components/contact'
-import DefaultPage from '../components/defaultPage'
+import DefaultPage from '../components/default-page'
 
 const contact = () => (
   <div id="wrapper">
